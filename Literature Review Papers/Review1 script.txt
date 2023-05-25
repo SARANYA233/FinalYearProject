@@ -1,0 +1,43 @@
+SLIDE 1: saranya.s
+
+SLIDE 2,3 : SRIPONBALA.K
+Farmers need a competent guidance to use the fertilisers at the best in order to
+acheive higher yields and reduce fertiliser loss.
+
+If the rainfall is moderate and falls at right moment then it help nutrients to 
+penetrate the soils rooting zone and dissolve dry feritliser otherwise too much 
+rain can increase the possibility of runoff at which nutrients like nitrogen,
+phosporous,potassium which are quite crucial are present in the soil.Thus it indicates
+the connection between rainfall volume and nutrient loss.
+
+And we have taken the literature survey over 20 papers within the year 2019 - 2022 
+to address this issue.
+
+SLIDE 10 : SARANGAM SAI INDU
+The two main objective of our project is :
+	1. To provide an intelligent and optimistic decision for the farm system to 
+optimise fertiliser usage in terms of NPK.
+	2. To slow down leaching process.
+
+SLIDE 11: SARANYA.S
+The description of each component in the block diagram is 
+1.Input - user provides data such as crop,city,state
+2.then the weather API send weather details like temperature,rainfall,humidity,etc
+3.the Besttimetofertilise component determines the best time to fertilise using the 
+fetched weather data.
+4. The NPKEstimator component estimates the required ratio of NPK content in soil
+5.output displays the NPK ratio 
+
+In this data flow diagram, input is taken from the user on webapp then the location is 
+fed to weather API which returns certain characteristics like temaparature, humidity, rainfall
+Now there is a check if there is possibility of heavy rainfall then precautionary message is
+displayed otherwise the proposed algorithm is followed and output is displayed.
+
+SLIDE 12: SWATHI.A
+Our methodology is to Build a machine learning model to predict the nutrients like Nitrogen,
+phosporous, potassium required for the crop based on weather forecast using various machine 
+learning algorithm.
+Based on the accuracy we get for each algorithm we will be finalising the one.
+The finalised ML model is connected to the webapp created using flask. 
+
+

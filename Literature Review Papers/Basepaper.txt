@@ -1,0 +1,71 @@
+BASE PAPER : A nutrient recommendation system for soil fertilization based 
+		 on Evolutionary Computation
+(01-10-2021)
+
+**This paper develops a model that enables efficient exploration of correct usage of
+ nutrients (such as N, P and K) for developing a knowledge-based system for the ICT
+(Information and Communication Technology) environment. Develop knowledge is then 
+applied directly to the environment, which recommends balancing soil fertility and 
+crop production.**
+
+SUMMARY:
+Each sensor in the remote area has its set of nutrient levels. The sensor values are
+stored locally and sent to the database based on intervals (weekly, monthly, yearly).
+All sensors for each nutrient are collected and merged through the Internet to log 
+the extensive data set of the remote area. The designed algorithm is then applied 
+and optimize for sequence nutrients for decision-making.The objective of the 
+developed model is to maintain soil fertility (maintaining nutrient levels) and 
+increase crop production (yield) simultaneously.
+
+SIMILARITY TO OUR PROJECT:
+This model used the series of data of the same cultivated area and then recommended 
+the nutrient level before the crop. Compared to the traditional approach that only 
+utilities the previous or current state of the soil, the developed model can 
+recommend a set of nutrient levels and maximize the yield production. 
+
+DIFFERENCES TO OUR PROJECT:
+This model doesn't account for rainfall patterns and eventually fails to prevent 
+the leaching of soil.
+
+ALGORITHM USED:
+This paper proposes nutrient recommendations through an improved genetic algorithm
+that uses time-series sensor data.
+
+Q. What is EC (Evolutionary Computation) ?	
+-> Evolutionary Computing is the study of computational systems which use ideas and 
+get inspirations from natural evolution and other biological systems.
+
+Q. What is Genetic Algorithm ?	
+-> A genetic algorithm is a search heuristic that is inspired by Charles Darwin’s 
+theory of natural evolution.	
+-> This algorithm reflects the process of natural selection where the fittest 
+individuals are selected for reproduction in order to produce offspring of the 
+next generation.	
+-> Five phases are considered in a genetic algorithm.	
+	1.Initial population: 
+			*The process begins with a set of individuals which is called a 
+Population. Each individual is a solution to the problem you want to solve.
+			*An individual is characterized by a set of parameters (variables) known as Genes. 
+Genes are joined into a string to form a Chromosome (solution).
+	2.Fitness function:
+			*The fitness function determines how fit an individual is 
+(the ability of an individual to compete with other individuals). It gives fitness
+score to each and every individual.
+	3.Selection:
+			*The idea of selection phase is to select the fittest individuals
+ and let them pass their genes to the next generation.
+	4.Crossover:
+			*The new offspring are added to the population.
+	5.Mutation:
+			*In certain new offspring formed, some of their genes can be 
+subjected to a mutation with a low random probability.
+	
+-> The algorithm terminates if the population has converged (does not produce offspring which are 
+significantly different from the previous generation). Then it is said that the genetic algorithm has 
+provided a set of solutions to our problem.	
+-> The population has a fixed size. As new generations are formed, individuals with least fitness die, 
+providing space for new offspring.	
+	
+Q. What is Time Series ?	
+-> A time series is a sequence of observations taken sequentially in time.	
+
